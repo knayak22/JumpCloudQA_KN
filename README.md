@@ -1,8 +1,8 @@
-I used the windows version of password had program when I first started this. 
+I used the windows version of password hash program when I first started this. 
 
 After multiple attempts to get this to work using the commands mentioned in the assignment document, I found that it is not applicable when run using Windows OS. When running in Windows, curl does not recognize single quotes. Double quotes needs to be used instead. In this case in the json we would need to use escape characters but it was not working either. So ended up using a json.txt format to send as password input in the POST to /hash request. So most of my screenshots from my tests were using the .txt file as json input
 
-Various inputs used when testing password hash
+Various inputs used when testing password hash:
 json1.txt
 {"password": "angrymonkey"}
 
